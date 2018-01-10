@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA461D583390E9E7CDB1702 /* Pods_CollegeUnion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CEEC822E7E70B93490A04C /* Pods_CollegeUnion.framework */; };
+		84C8DE76200075180003F7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DE75200075180003F7AF /* AppDelegate.swift */; };
+		84C8DE78200075180003F7AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DE77200075180003F7AF /* ViewController.swift */; };
+		84C8DE7B200075180003F7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C8DE79200075180003F7AF /* Main.storyboard */; };
+		84C8DE7D200075180003F7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C8DE7C200075180003F7AF /* Assets.xcassets */; };
+		84C8DE80200075180003F7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C8DE7E200075180003F7AF /* LaunchScreen.storyboard */; };
+		84C8DE8B200075180003F7AF /* CollegeUnionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DE8A200075180003F7AF /* CollegeUnionTests.swift */; };
+		84C8DEA820007B090003F7AF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DEA720007B090003F7AF /* BaseViewController.swift */; };
+		84C8DEAA20007B260003F7AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DEA920007B260003F7AF /* LoginViewController.swift */; };
+		84C8DEB5200080410003F7AF /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DEB4200080410003F7AF /* Macros.swift */; };
+		84C8DEBD2003018D0003F7AF /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C8DEBC2003018D0003F7AF /* right_arrow.png */; };
+		84C8DEBF200374BF0003F7AF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DEBE200374BF0003F7AF /* RegisterViewController.swift */; };
+		84C8DEC1200374D70003F7AF /* PwdInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DEC0200374D70003F7AF /* PwdInputViewController.swift */; };
+		84C8DEC32004B5DD0003F7AF /* BaseNavgationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DEC22004B5DD0003F7AF /* BaseNavgationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C8DE87200075180003F7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C8DE6A200075180003F7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C8DE71200075180003F7AF;
+			remoteInfo = CollegeUnion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C8DE72200075180003F7AF /* CollegeUnion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeUnion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C8DE75200075180003F7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C8DE77200075180003F7AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C8DE7A200075180003F7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C8DE7C200075180003F7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C8DE7F200075180003F7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C8DE81200075180003F7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C8DE86200075180003F7AF /* CollegeUnionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeUnionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C8DE8A200075180003F7AF /* CollegeUnionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeUnionTests.swift; sourceTree = "<group>"; };
+		84C8DE8C200075180003F7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C8DEA720007B090003F7AF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84C8DEA920007B260003F7AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84C8DEB4200080410003F7AF /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		84C8DEBC2003018D0003F7AF /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		84C8DEBE200374BF0003F7AF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		84C8DEC0200374D70003F7AF /* PwdInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwdInputViewController.swift; sourceTree = "<group>"; };
+		84C8DEC22004B5DD0003F7AF /* BaseNavgationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavgationViewController.swift; sourceTree = "<group>"; };
+		9F821FAA72BD5CBAAD0E00AF /* Pods-CollegeUnion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeUnion.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeUnion/Pods-CollegeUnion.release.xcconfig"; sourceTree = "<group>"; };
+		A7ED588C75C75266B0B4CE30 /* Pods-CollegeUnion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeUnion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeUnion/Pods-CollegeUnion.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CEEC822E7E70B93490A04C /* Pods_CollegeUnion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollegeUnion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C8DE6F200075180003F7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA461D583390E9E7CDB1702 /* Pods_CollegeUnion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C8DE83200075180003F7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213198F646D6769D71AABB9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CEEC822E7E70B93490A04C /* Pods_CollegeUnion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C8DE69200075180003F7AF = {
+			isa = PBXGroup;
+			children = (
+				84C8DE74200075180003F7AF /* CollegeUnion */,
+				84C8DE89200075180003F7AF /* CollegeUnionTests */,
+				84C8DE73200075180003F7AF /* Products */,
+				DD10F66767DBDB95863EDB71 /* Pods */,
+				213198F646D6769D71AABB9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84C8DE73200075180003F7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DE72200075180003F7AF /* CollegeUnion.app */,
+				84C8DE86200075180003F7AF /* CollegeUnionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C8DE74200075180003F7AF /* CollegeUnion */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DE982000776C0003F7AF /* General */,
+				84C8DE972000773B0003F7AF /* Appdelegate */,
+				84C8DE952000764A0003F7AF /* SupportingFiles */,
+				84C8DE77200075180003F7AF /* ViewController.swift */,
+				84C8DE79200075180003F7AF /* Main.storyboard */,
+				84C8DE7E200075180003F7AF /* LaunchScreen.storyboard */,
+			);
+			path = CollegeUnion;
+			sourceTree = "<group>";
+		};
+		84C8DE89200075180003F7AF /* CollegeUnionTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DE8A200075180003F7AF /* CollegeUnionTests.swift */,
+				84C8DE8C200075180003F7AF /* Info.plist */,
+			);
+			path = CollegeUnionTests;
+			sourceTree = "<group>";
+		};
+		84C8DE952000764A0003F7AF /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DEB62000B4B30003F7AF /* Images */,
+				84C8DE81200075180003F7AF /* Info.plist */,
+				84C8DE7C200075180003F7AF /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		84C8DE972000773B0003F7AF /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DE75200075180003F7AF /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		84C8DE982000776C0003F7AF /* General */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DE9C200077820003F7AF /* Category */,
+				84C8DE9B2000777F0003F7AF /* Modules */,
+				84C8DE9A2000777D0003F7AF /* Macro */,
+				84C8DE99200077750003F7AF /* Libs */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		84C8DE99200077750003F7AF /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		84C8DE9A2000777D0003F7AF /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DEA0200077E30003F7AF /* MVC */,
+				84C8DE9F200077BF0003F7AF /* NetworkingEngine */,
+				84C8DE9E200077AF0003F7AF /* MainArchitecture */,
+				84C8DE9D200077A40003F7AF /* Public */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		84C8DE9B2000777F0003F7AF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DEA620007ABF0003F7AF /* Login */,
+				84C8DEA5200078160003F7AF /* Mine */,
+				84C8DEA42000780E0003F7AF /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84C8DE9C200077820003F7AF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		84C8DE9D200077A40003F7AF /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DEB4200080410003F7AF /* Macros.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		84C8DE9E200077AF0003F7AF /* MainArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainArchitecture;
+			sourceTree = "<group>";
+		};
+		84C8DE9F200077BF0003F7AF /* NetworkingEngine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkingEngine;
+			sourceTree = "<group>";
+		};
+		84C8DEA0200077E30003F7AF /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DEA3200077FE0003F7AF /* Views */,
+				84C8DEA2200077F50003F7AF /* Models */,
+				84C8DEA1200077EA0003F7AF /* Controllers */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		84C8DEA1200077EA0003F7AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DEA720007B090003F7AF /* BaseViewController.swift */,
+				84C8DEC22004B5DD0003F7AF /* BaseNavgationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84C8DEA2200077F50003F7AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84C8DEA3200077FE0003F7AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84C8DEA42000780E0003F7AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84C8DEA5200078160003F7AF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		84C8DEA620007ABF0003F7AF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DEA920007B260003F7AF /* LoginViewController.swift */,
+				84C8DEBE200374BF0003F7AF /* RegisterViewController.swift */,
+				84C8DEC0200374D70003F7AF /* PwdInputViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		84C8DEB62000B4B30003F7AF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84C8DEBC2003018D0003F7AF /* right_arrow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DD10F66767DBDB95863EDB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED588C75C75266B0B4CE30 /* Pods-CollegeUnion.debug.xcconfig */,
+				9F821FAA72BD5CBAAD0E00AF /* Pods-CollegeUnion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C8DE71200075180003F7AF /* CollegeUnion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C8DE8F200075180003F7AF /* Build configuration list for PBXNativeTarget "CollegeUnion" */;
+			buildPhases = (
+				3B42D1B6D649AD0BCC515631 /* [CP] Check Pods Manifest.lock */,
+				84C8DE6E200075180003F7AF /* Sources */,
+				84C8DE6F200075180003F7AF /* Frameworks */,
+				84C8DE70200075180003F7AF /* Resources */,
+				9F4D9550EA687AE274937BFD /* [CP] Embed Pods Frameworks */,
+				730382DE6F57DDD03403F067 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeUnion;
+			productName = CollegeUnion;
+			productReference = 84C8DE72200075180003F7AF /* CollegeUnion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C8DE85200075180003F7AF /* CollegeUnionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C8DE92200075180003F7AF /* Build configuration list for PBXNativeTarget "CollegeUnionTests" */;
+			buildPhases = (
+				84C8DE82200075180003F7AF /* Sources */,
+				84C8DE83200075180003F7AF /* Frameworks */,
+				84C8DE84200075180003F7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C8DE88200075180003F7AF /* PBXTargetDependency */,
+			);
+			name = CollegeUnionTests;
+			productName = CollegeUnionTests;
+			productReference = 84C8DE86200075180003F7AF /* CollegeUnionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C8DE6A200075180003F7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					84C8DE71200075180003F7AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					84C8DE85200075180003F7AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84C8DE71200075180003F7AF;
+					};
+				};
+			};
+			buildConfigurationList = 84C8DE6D200075180003F7AF /* Build configuration list for PBXProject "CollegeUnion" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C8DE69200075180003F7AF;
+			productRefGroup = 84C8DE73200075180003F7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C8DE71200075180003F7AF /* CollegeUnion */,
+				84C8DE85200075180003F7AF /* CollegeUnionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C8DE70200075180003F7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C8DE80200075180003F7AF /* LaunchScreen.storyboard in Resources */,
+				84C8DE7D200075180003F7AF /* Assets.xcassets in Resources */,
+				84C8DEBD2003018D0003F7AF /* right_arrow.png in Resources */,
+				84C8DE7B200075180003F7AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C8DE84200075180003F7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B42D1B6D649AD0BCC515631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollegeUnion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		730382DE6F57DDD03403F067 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollegeUnion/Pods-CollegeUnion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4D9550EA687AE274937BFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CollegeUnion/Pods-CollegeUnion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollegeUnion/Pods-CollegeUnion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C8DE6E200075180003F7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C8DEAA20007B260003F7AF /* LoginViewController.swift in Sources */,
+				84C8DEB5200080410003F7AF /* Macros.swift in Sources */,
+				84C8DE78200075180003F7AF /* ViewController.swift in Sources */,
+				84C8DEC1200374D70003F7AF /* PwdInputViewController.swift in Sources */,
+				84C8DEBF200374BF0003F7AF /* RegisterViewController.swift in Sources */,
+				84C8DE76200075180003F7AF /* AppDelegate.swift in Sources */,
+				84C8DEA820007B090003F7AF /* BaseViewController.swift in Sources */,
+				84C8DEC32004B5DD0003F7AF /* BaseNavgationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C8DE82200075180003F7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C8DE8B200075180003F7AF /* CollegeUnionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C8DE88200075180003F7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C8DE71200075180003F7AF /* CollegeUnion */;
+			targetProxy = 84C8DE87200075180003F7AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C8DE79200075180003F7AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C8DE7A200075180003F7AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C8DE7E200075180003F7AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C8DE7F200075180003F7AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C8DE8D200075180003F7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C8DE8E200075180003F7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C8DE90200075180003F7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7ED588C75C75266B0B4CE30 /* Pods-CollegeUnion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CKXF9F3R3Y;
+				INFOPLIST_FILE = CollegeUnion/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengj.CollegeUnion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3382d1df-07e2-4cb0-bf32-3877a97068bf";
+				PROVISIONING_PROFILE_SPECIFIER = customDev;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C8DE91200075180003F7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F821FAA72BD5CBAAD0E00AF /* Pods-CollegeUnion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CollegeUnion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengj.CollegeUnion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84C8DE93200075180003F7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeUnionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengj.CollegeUnionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollegeUnion.app/CollegeUnion";
+			};
+			name = Debug;
+		};
+		84C8DE94200075180003F7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeUnionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengj.CollegeUnionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollegeUnion.app/CollegeUnion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C8DE6D200075180003F7AF /* Build configuration list for PBXProject "CollegeUnion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C8DE8D200075180003F7AF /* Debug */,
+				84C8DE8E200075180003F7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C8DE8F200075180003F7AF /* Build configuration list for PBXNativeTarget "CollegeUnion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C8DE90200075180003F7AF /* Debug */,
+				84C8DE91200075180003F7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C8DE92200075180003F7AF /* Build configuration list for PBXNativeTarget "CollegeUnionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C8DE93200075180003F7AF /* Debug */,
+				84C8DE94200075180003F7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C8DE6A200075180003F7AF /* Project object */;
+}
