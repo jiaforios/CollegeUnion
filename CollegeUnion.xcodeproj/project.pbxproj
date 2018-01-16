@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0BA461D583390E9E7CDB1702 /* Pods_CollegeUnion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CEEC822E7E70B93490A04C /* Pods_CollegeUnion.framework */; };
+		84B4206D200DE91100024F93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4206C200DE91100024F93 /* HomeViewController.swift */; };
+		84B4206F200DEAAD00024F93 /* BaseTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4206E200DEAAD00024F93 /* BaseTabController.swift */; };
+		84B42071200DEBF400024F93 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B42070200DEBF400024F93 /* MineViewController.swift */; };
 		84C8DE76200075180003F7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DE75200075180003F7AF /* AppDelegate.swift */; };
 		84C8DE78200075180003F7AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8DE77200075180003F7AF /* ViewController.swift */; };
 		84C8DE7B200075180003F7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C8DE79200075180003F7AF /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84B4206C200DE91100024F93 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84B4206E200DEAAD00024F93 /* BaseTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabController.swift; sourceTree = "<group>"; };
+		84B42070200DEBF400024F93 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		84C8DE72200075180003F7AF /* CollegeUnion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeUnion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C8DE75200075180003F7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C8DE77200075180003F7AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -226,6 +232,7 @@
 			children = (
 				84C8DEA720007B090003F7AF /* BaseViewController.swift */,
 				84C8DEC22004B5DD0003F7AF /* BaseNavgationViewController.swift */,
+				84B4206E200DEAAD00024F93 /* BaseTabController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -247,6 +254,7 @@
 		84C8DEA42000780E0003F7AF /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				84B4206C200DE91100024F93 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -254,6 +262,7 @@
 		84C8DEA5200078160003F7AF /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				84B42070200DEBF400024F93 /* MineViewController.swift */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -447,10 +456,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C8DEAA20007B260003F7AF /* LoginViewController.swift in Sources */,
+				84B42071200DEBF400024F93 /* MineViewController.swift in Sources */,
 				84C8DEB5200080410003F7AF /* Macros.swift in Sources */,
 				84C8DE78200075180003F7AF /* ViewController.swift in Sources */,
 				84C8DEC1200374D70003F7AF /* PwdInputViewController.swift in Sources */,
 				84C8DEBF200374BF0003F7AF /* RegisterViewController.swift in Sources */,
+				84B4206D200DE91100024F93 /* HomeViewController.swift in Sources */,
+				84B4206F200DEAAD00024F93 /* BaseTabController.swift in Sources */,
 				84C8DE76200075180003F7AF /* AppDelegate.swift in Sources */,
 				84C8DEA820007B090003F7AF /* BaseViewController.swift in Sources */,
 				84C8DEC32004B5DD0003F7AF /* BaseNavgationViewController.swift in Sources */,

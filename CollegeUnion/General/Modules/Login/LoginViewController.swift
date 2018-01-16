@@ -62,8 +62,11 @@ class LoginViewController: BaseViewController {
     
      @objc  func loginAction() {
         print("loginAction")
-        let pwdvc = PwdInputViewController.newWithAccount(account: account_tf.text)
-        self.navigationController?.pushViewController(pwdvc, animated: true)
+//        let homeVC = HomeViewController()
+//        self.navigationController?.pushViewController(homeVC, animated: true)
+        
+       let appdelegate = UIApplication.shared.delegate as! AppDelegate
+       appdelegate.rootMain()
         
     }
     

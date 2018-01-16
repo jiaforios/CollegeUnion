@@ -1,33 +1,25 @@
 //
-//  BaseViewController.swift
+//  MineViewController.swift
 //  CollegeUnion
 //
-//  Created by admin on 2018/1/6.
+//  Created by admin on 2018/1/16.
 //  Copyright © 2018年 com. All rights reserved.
 //
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class MineViewController: BaseViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.white
+
         // Do any additional setup after loading the view.
     }
-    
-    func NavgationAlphaZero() {
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-        self.navigationController?.navigationBar.shadowImage = UIImage()
-    }
-
-   
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
 
     /*
@@ -41,4 +33,3 @@ class BaseViewController: UIViewController {
     */
 
 }
-

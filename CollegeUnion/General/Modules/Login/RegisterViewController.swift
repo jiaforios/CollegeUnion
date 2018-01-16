@@ -12,7 +12,6 @@ class RegisterViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.setBackgroundImage(navImage(color: UIColor.black), for: UIBarMetrics.default)
 
         // Do any additional setup after loading the view.
     }
@@ -37,17 +36,6 @@ class RegisterViewController: BaseViewController {
         return theImage!
     }
     
-//    + (UIImage *)createImageWithColor:(UIColor *)color {
-//    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
-//    UIGraphicsBeginImageContext(rect.size);
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    CGContextSetFillColorWithColor(context, [color CGColor]);
-//    CGContextFillRect(context, rect);
-//    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
-//    UIGraphicsEndImageContext();
-//    return theImage;
-//    }
-
 
     /*
     // MARK: - Navigation
