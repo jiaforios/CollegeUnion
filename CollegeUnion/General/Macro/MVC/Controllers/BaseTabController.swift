@@ -10,6 +10,7 @@ import UIKit
 
 class BaseTabController: UITabBarController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,7 +27,17 @@ class BaseTabController: UITabBarController {
         homeNav.tabBarItem = homeItem
         self.viewControllers = [homeNav,mineNav]
         
+        let titleLbl = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: 50, height: 30))
+        titleLbl.text = "首页"
+        titleLbl.font = UIFont.boldSystemFont(ofSize: 25)
+        let leftBar = UIBarButtonItem.init(customView: titleLbl)
+        home.navigationItem.leftBarButtonItem = leftBar
+        
+        
     }
+    
+   
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
